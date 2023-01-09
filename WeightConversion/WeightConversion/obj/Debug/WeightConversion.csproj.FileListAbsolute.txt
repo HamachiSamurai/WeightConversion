@@ -1,0 +1,11 @@
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\bin\Debug\WeightConversion.exe.config
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\bin\Debug\WeightConversion.exe
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\bin\Debug\WeightConversion.pdb
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\obj\Debug\WeightConversion.csproj.AssemblyReference.cache
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\obj\Debug\WeightConversion.csproj.SuggestedBindingRedirects.cache
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\obj\Debug\WeightConversion.Form1.resources
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\obj\Debug\WeightConversion.Properties.Resources.resources
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\obj\Debug\WeightConversion.csproj.GenerateResource.cache
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\obj\Debug\WeightConversion.csproj.CoreCompileInputs.cache
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\obj\Debug\WeightConversion.exe
+C:\develop\study\WeightConversion\WeightConversion\WeightConversion\obj\Debug\WeightConversion.pdb
