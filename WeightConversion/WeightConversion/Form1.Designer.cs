@@ -35,8 +35,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.resetButton = new System.Windows.Forms.Button();
+            this.AA = new System.Windows.Forms.Label();
+            this.overLabel = new System.Windows.Forms.Label();
+            this.secretButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // conversionButton
@@ -98,33 +100,55 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "脳筋御用達重量変換機";
             // 
-            // button1
+            // resetButton
             // 
-            this.button1.Font = new System.Drawing.Font("MS UI Gothic", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.button1.Location = new System.Drawing.Point(317, 288);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 67);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "リセット";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.ResetButtonClicked);
+            this.resetButton.Font = new System.Drawing.Font("MS UI Gothic", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.resetButton.Location = new System.Drawing.Point(317, 288);
+            this.resetButton.Name = "resetButton";
+            this.resetButton.Size = new System.Drawing.Size(94, 67);
+            this.resetButton.TabIndex = 6;
+            this.resetButton.Text = "リセット";
+            this.resetButton.UseVisualStyleBackColor = true;
+            this.resetButton.Click += new System.EventHandler(this.ResetButtonClicked);
             // 
-            // label4
+            // AA
             // 
-            this.label4.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label4.Location = new System.Drawing.Point(454, 128);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(347, 321);
-            this.label4.TabIndex = 7;
-            this.label4.Text = resources.GetString("label4.Text");
+            this.AA.Font = new System.Drawing.Font("MS UI Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.AA.Location = new System.Drawing.Point(429, 113);
+            this.AA.Name = "AA";
+            this.AA.Size = new System.Drawing.Size(675, 337);
+            this.AA.TabIndex = 7;
+            this.AA.Text = resources.GetString("AA.Text");
+            // 
+            // overLabel
+            // 
+            this.overLabel.Font = new System.Drawing.Font("MS UI Gothic", 80F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.overLabel.Location = new System.Drawing.Point(475, 288);
+            this.overLabel.Name = "overLabel";
+            this.overLabel.Size = new System.Drawing.Size(262, 144);
+            this.overLabel.TabIndex = 8;
+            this.overLabel.Text = "負け";
+            this.overLabel.Visible = false;
+            // 
+            // secretButton
+            // 
+            this.secretButton.Font = new System.Drawing.Font("MS UI Gothic", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.secretButton.Location = new System.Drawing.Point(317, 365);
+            this.secretButton.Name = "secretButton";
+            this.secretButton.Size = new System.Drawing.Size(94, 67);
+            this.secretButton.TabIndex = 9;
+            this.secretButton.Text = "未実装";
+            this.secretButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.secretButton);
+            this.Controls.Add(this.overLabel);
+            this.Controls.Add(this.AA);
+            this.Controls.Add(this.resetButton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -146,8 +170,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button resetButton;
+        private System.Windows.Forms.Label AA;
+        private System.Windows.Forms.Label overLabel;
+        private System.Windows.Forms.Button secretButton;
     }
 }
 
